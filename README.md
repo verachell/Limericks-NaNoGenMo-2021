@@ -15,7 +15,7 @@ Then in your command line, type ```ruby yeetwords.rb limericks.txt```
 A file of limericks of > 50,000 words in markdown format will be generated. You will not prompted for anything except for the output filename if a file with the default name already exists.
 
 ## Features
-- Within one limerick, a character's name and job remains constant. Not all line template choices will refer to the character's name and/or job, so it is possible that this consistency is not visible in many of the limericks. However, the ability to generate characters is a feature of YeetWords which is used in a (not-very-obvious-way) in this program.
+- Within one limerick, a character's name and job remains constant. Not all line template choices will refer to the character's name and/or job, so it is possible that this consistency is not visible in many of the limericks. However, the ability to generate characters is a feature of YeetWords which is used in a sutble way in this program.
 
 ## Limitations
 - Some of the words do not rhyme well, even if the spelling of the word endings are similar (e.g. automobile and prehensile). This is due to the source of the rhymes, which are from another repository of mine where they were obtained via the spelling of the end of the words; see section below for details.  
