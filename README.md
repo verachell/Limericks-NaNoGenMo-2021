@@ -1,4 +1,4 @@
-# Limericks-NaNoGenMo-2021
+# Limericks NaNoGenMo 2021
 Generates > 50,000 words of limericks  
 
 These limericks are generated via word substitution (mad-lib style) using [YeetWords](https://github.com/verachell/YeetWords).
