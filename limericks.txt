@@ -1,0 +1,29 @@
+REFGENDER male.names = malenames
+REFGENDER female.names = femalenames
+
+GEN person 100 binary
+job 1 job
+GENEND
+
+ASSIGNCATALOG rhymes = wfolder - emotion - plnoun - portnoun - adv - conj - prep - job - adj - verbed - verbing - malenames - femalenames
+
+FORMAT LACS
+
+DESC limerick
+ASSIGNCATALOG rhymeab = rhymes 2
+ASSIGNCATALOG rhyme1 = rhymeab 1
+ASSIGNCATALOG rhyme2 = rhymeab - rhyme1
+ASSIGNLIST rhymea = rhyme1 1
+ASSIGNLIST rhymeb = rhyme2 1
+ASSIGNCATALOG allwords = wfolder + rhymea + rhymeb
+WRITE line1 allwords 1
+WRITE line2 allwords 1
+WRITE line34 allwords 2
+WRITE line5 allwords 1
+SHIFT person
+NEWPARA
+DESCEND
+
+LOOP 50000W
+CALL limerick
+LOOPEND
