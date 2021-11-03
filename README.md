@@ -5,8 +5,8 @@ These limericks are generated via word substitution (mad-lib style) using [YeetW
 
 ## Usage - how to run this program
 Please note: This code requires that:   
-- ruby is installed on your machine and  
-- you have the yeetwords.rb file from the YeetWords repository (see below for where to place it).  
+- ```ruby``` is installed on your machine and  
+- you have the ```yeetwords.rb``` file from the YeetWords repository (see below for where to place it).  
 
 To run this limerick generator, first download the contents of this repository into your working directory. You will also need to download the ```yeetwords.rb``` file from the [YeetWords repository](https://github.com/verachell/YeetWords) (v 1.1.0 or up) and place it at the same directory as ```limericks.txt``` from this repository.
 
